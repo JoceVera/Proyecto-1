@@ -11,19 +11,32 @@ Este proceso se realizará las veces necesarias de acuerdo a los pedidos en los 
 
 ### Pseudocódigo 
 - Estado inicial
+
 Lo que desea hacer:  agregar pedido(1), modificar sección (2), observar información (3).
+
 La información del pedido: nombre (string), cantidad (int), sección (int), cantidad producida (int) y cantidad de personas (int).
+
 - Proceso
+
 Guardar información en variables (int)
+
 Calcular las predicciones (float/int): promedio (float), tiempo restante (float), cantidad faltante (int)
+
 Calcular rendimiento (float)
+
 Ocupar información de la sección (string)
+
 - Estado final
+
 Estado actual del pedido (descripción string)
+
 Tiempo estimado de terminación (float)
+
 Cantidad de piezas restantes (int)
-Cantidad de piezas de todo el día (int) 
+
+Cantidad de piezas de todo el día #(int) 
 
 
 Fuentes
+
 Tecnología para la industria. (2022, 30 junio). 10 maneras en las que el monitoreo en tiempo real de la fabricación mejora la precisión y la calidad. Recuperado 18 de agosto de 2022, de https://tecnologiaparalaindustria.com/10-maneras-en-las-que-el-monitoreo-en-tiempo-real-de-la-fabricacion-mejora-la-precision-y-la-calidad/
