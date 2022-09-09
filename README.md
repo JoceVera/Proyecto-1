@@ -34,7 +34,7 @@ Tiempo estimado de terminación (float)
 
 Cantidad de piezas restantes (int)
 
-Cantidad de piezas de todo el día #(int) 
+Cantidad de piezas de todo el día (int) 
 
 
 Fuentes
