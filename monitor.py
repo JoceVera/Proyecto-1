@@ -64,7 +64,7 @@ if inicio == 1:
     nombre_pedido = str(input("Ingresa el nombre de corte: "))
     seccion = str(input("\nEscribe la letra correspondiente a"\
                         " la sección de producción:\n"\
-                        "        A   B   C   D   E   F \n"))
+                        "        A   B   C   D   E   \n"))
     
     personal = secciones (seccion)
     pedido_total = int(input("\nCantidad total de piezas en pedido:"))
