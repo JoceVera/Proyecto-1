@@ -24,7 +24,7 @@ Calcular las predicciones (float/int): promedio (float), tiempo restante (float)
 
 Calcular rendimiento (float)
 
-Ocupar información de la sección (string)
+Ocupar información de la sección (str)
 
 - Estado final
 
