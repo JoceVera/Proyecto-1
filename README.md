@@ -14,7 +14,7 @@ Este proceso se realizará las veces necesarias de acuerdo a los pedidos en los 
 
 Lo que desea hacer:  agregar pedido(1), modificar sección (2), observar información (3).
 
-La información del pedido: nombre (string), cantidad (int), sección (int), cantidad producida (int) y cantidad de personas (int).
+La información del pedido: nombre (str), cantidad (int), sección (str), cantidad producida (int) y cantidad de personas (int).
 
 - Proceso
 
@@ -28,7 +28,7 @@ Ocupar información de la sección (string)
 
 - Estado final
 
-Estado actual del pedido (descripción string)
+Estado actual del pedido (descripción str)
 
 Tiempo estimado de terminación (float)
 
