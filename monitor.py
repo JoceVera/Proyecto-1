@@ -55,8 +55,8 @@ inicio = int(input("¿Desea agregar un nuevo proceso? \n\nIngrese el número de 
                    " correpondiente \n          1.Si  2.No\n"))
 band=1
 while band:
+    """Información requerdida opara generar cálculos de producción"""
     if inicio ==1:
-         """Información requerdida opara generar cálculos de producción"""
         band=0
         print ("\nIngresa la información del pedido...\n")
         nombre_pedido = str(input("Ingresa el nombre de corte: "))
