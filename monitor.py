@@ -51,8 +51,8 @@ def secciones (letra_seccion):
 hoy=date.today()
 cantidad_dia = 0   
 
-inicio = int(input("¿Desea agregar un nuevo proceso? \n\nIngrese el número de la opción"\
-                   " correpondiente \n          1.Si  2.No\n"))
+inicio = int(input("¿Desea agregar un nuevo proceso? \n\nIngrese el número"\
+                   " de la opción correpondiente \n          1.Si  2.No\n"))
 band=1
 while band:
     """Información requerdida opara generar cálculos de producción"""
@@ -75,7 +75,8 @@ while band:
         print("\nNo hay más cortes por hoy...")
     else:
         inicio = int(input("\nRespuesta no válida...\n\n"\
-                           "¿Desea agregar un nuevo proceso? \n\nIngrese la opción"\
-                           " correpondiente \n          1.Si  2.No\n"))   
+                           "¿Desea agregar un nuevo proceso? \n\nIngrese el"\
+                           "número de la opción correpondiente"\
+                           "\n          1.Si  2.No\n"))   
 
 print("Regresa pronto.")
