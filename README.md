@@ -38,5 +38,6 @@ Cantidad de piezas de todo el día (int)
 
 
 
-###Fuentes
+### Fuentes
+
 Tecnología para la industria. (2022, 30 junio). 10 maneras en las que el monitoreo en tiempo real de la fabricación mejora la precisión y la calidad. Recuperado 18 de agosto de 2022, de https://tecnologiaparalaindustria.com/10-maneras-en-las-que-el-monitoreo-en-tiempo-real-de-la-fabricacion-mejora-la-precision-y-la-calidad/
