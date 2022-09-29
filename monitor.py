@@ -1,6 +1,5 @@
 from datetime import date
 
-
 def inicio_01 (lista):
     """Pide toda la información del pedido"""
     print ("\n  Información del pedido...\n")
@@ -14,7 +13,7 @@ def inicio_01 (lista):
     promedio_produccion_dia, tiempo_restante,faltantes = \
                          rendimiento(piezas_dia,piezas_total,personal)
     lista.append (promedio_produccion_dia)
-    resultados (tiempo_restante,faltantes,lista)
+    resultados_restantes (tiempo_restante,faltantes,lista)
 
     inicio = str(input("\n\n¿Desea agregar un otro proceso?"
                        "\n(Ingrese el número"\
@@ -69,12 +68,12 @@ def rendimiento (piezas_dia, piezas_pedido, num_personal):
     piezas_restantes= piezas_pedido - piezas_dia
     return promedio_persona,estimacion,piezas_restantes
 
-def resultados (estimacion,piezas_restantes,lista):
+def resultados_restantes (estimacion,piezas_restantes,lista):
     """Mensajes sobre el tiempo de producción y piezas  restante por pedido"""
     print("\nAproximadamente faltan:\n %.2f" %estimacion,"horas de trabajo y",\
           int(piezas_restantes),"piezas para completar el pedido.")
 
-def final (lista):
+def resumen_dia (lista):
     """Genera el resumen de los procesos del día haciendo uso de una lista"""
     contador=1
     nombre= 0
@@ -82,7 +81,7 @@ def final (lista):
     rendimiento_dia= 2
     print("Pedidos:")
     while contador <=(len (lista)/3):
-        print("  El pedido",lista[nombre],"realizo",lista[produccion],"piezas"\
+        print("  El pedido",lista[nombre],"realizó",lista[produccion],"piezas"\
               " con un rendimiento de %.2f" % lista[rendimiento_dia],"piezas"\
               " por persona.")
         nombre+=3
@@ -121,6 +120,7 @@ while band:
                           " opción correpondiente) \n          1.Si  2.No\n")
 
 print("\n\n Resumen del",hoy,":\n")
-final(resumen)
+resumen_dia(resumen)
+
 print("\nEl total de piezas"\
       " fabricadas fue de", cantidad_diaria,".\n\nRegresa pronto.")
