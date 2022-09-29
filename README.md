@@ -28,13 +28,14 @@ Ocupar información de la sección (int)
 
 - Estado final
 
-Estado actual del pedido (descripción str)
-
 Tiempo estimado de terminación (float)
 
 Cantidad de piezas restantes (int)
 
+Estado actual del pedido (descripción str y listas)
+
 Cantidad de piezas de todo el día (int) 
+
 
 
 
