@@ -46,7 +46,6 @@ Cantidad de piezas de todo el día (int)
 
 ### Fuentes
 
-Reto Directivos. (2021, 19 abril). Cómo calcular la productividad con ejemplos. El blog de retos para ser directivo | Desafíos de la Gestión Empresarial. Recuperado 29 de septiembre de 2022, de
-https://retos-directivos.eae.es/como-calcular-la-productividad-con-ejemplos/
+Reto Directivos. (2021, 19 abril). Cómo calcular la productividad con ejemplos. El blog de retos para ser directivo | Desafíos de la Gestión Empresarial. Recuperado 29 de septiembre de 2022, de: https://retos-directivos.eae.es/como-calcular-la-productividad-con-ejemplos/
 
-Tecnología para la industria. (2022, 30 junio). 10 maneras en las que el monitoreo en tiempo real de la fabricación mejora la precisión y la calidad. Recuperado 18 de agosto de 2022, de https://tecnologiaparalaindustria.com/10-maneras-en-las-que-el-monitoreo-en-tiempo-real-de-la-fabricacion-mejora-la-precision-y-la-calidad/
+Tecnología para la industria. (2022, 30 junio). 10 maneras en las que el monitoreo en tiempo real de la fabricación mejora la precisión y la calidad.    Recuperado 18 de agosto de 2022, de: https://tecnologiaparalaindustria.com/10-maneras-en-las-que-el-monitoreo-en-tiempo-real-de-la-fabricacion-mejora-la-precision-y-la-calidad/
