@@ -185,11 +185,6 @@ def resumen_dia (matriz):
     imprime la información del pedido.
     """
     
-    nombre = 0
-    produccion = 2
-    rendimiento_dia = 3
-    estimacion = 4
-    piezas_restantes = 5
     if (len (matriz)) == 0:
         print ("Pedidos:\n   No hubo pedidos.")
     else:
@@ -197,17 +192,22 @@ def resumen_dia (matriz):
         indice_01 = 0
         while indice_01 < len(matriz):
             indice = 0
-            while indice < 1:
-                print(" \n   El pedido",matriz[indice_01][nombre],"realizó",\
-                      matriz[indice_01][produccion],"piezas con un rendimiento"\
-                      " de %.2f" % matriz[indice_01][rendimiento_dia],"piezas"\
-                      " por persona. Aproximadamente faltan "\
-                      "%.2f" % matriz[indice_01][estimacion],"horas de trabajo"\
-                      " y",int(matriz[indice_01][piezas_restantes]),\
+            while indice < len(matriz[indice_01]):
+                if indice == 0:
+                    print ( " \n   El pedido",matriz[indice_01][indice],end="")
+                elif indice == 2:
+                    print ("realizó", matriz[indice_01][indice],"piezas",end="")
+                elif indice == 3:
+                    print ("con un rendimiento de %.2f" % matriz[indice_01]\
+                           [indice],"piezas por persona.")
+                elif indice == 4:
+                    print("Aproximadamente faltan %.2f" % matriz[indice_01]\
+                          [indice],"horas de trabajo",end="")
+                elif indice == 5:
+                    print (" y",int(matriz[indice_01][indice]),\
                       "piezas para completar el pedido.")
                 indice += 1
             indice_01 += 1
-
 
 """
 ======================  Parte principal del programa =========================
