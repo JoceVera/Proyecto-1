@@ -146,7 +146,7 @@ def inicio_01 (matriz):
     piezas_total,piezas_dia = datos ()
     promedio_produccion_dia, tiempo_restante,faltantes = \
                          rendimiento(piezas_dia,piezas_total,personal,\
-                                     horas_de_trabajo)
+                                     HORAS_TRABAJO)
     matriz.append(crear_lista(nombre_pedido,personal,piezas_dia,\
                               promedio_produccion_dia, tiempo_restante,\
                               faltantes))
@@ -215,7 +215,7 @@ def resumen_dia (matriz):
 
 #Se definen las variables reutilizables durante todo el programa
 hoy = date.today()  
-horas_de_trabajo = 8
+HORAS_TRABAJO = 8
 
 #Se inicializan las variables contadoras para ser reutilizados en las funciones 
 cantidad_diaria = 0
@@ -223,7 +223,7 @@ informacion_total = []
 
 
 print("\n        Producción por día\n")
-inicio = str(input("¿Desea agregar procesos? \n Ingrese el número"\
+inicio = str(input("¿Desea agregar procesos? \n Ingrese el número"
                    " correpondiente \n          1.Si  2.No\n"))
 
 cantidad_diaria = seleccion_inicio (inicio, cantidad_diaria,informacion_total)
@@ -231,7 +231,7 @@ cantidad_diaria = seleccion_inicio (inicio, cantidad_diaria,informacion_total)
 #Resumen
 print("\n\n      Resumen del",hoy,"...\n")
 resumen_dia (informacion_total)
-productividad = cantidad_diaria/horas_de_trabajo
+productividad = cantidad_diaria/HORAS_TRABAJO
 print("\n\nGeneral:\n El total de piezas"\
       " fabricadas fue de", cantidad_diaria," con una productividad total "\
       "de %.0f" % productividad,"piezas.\n\n\nRegresa pronto.")
