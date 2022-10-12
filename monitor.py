@@ -234,4 +234,4 @@ resumen_dia (informacion_total)
 productividad = cantidad_diaria/HORAS_TRABAJO
 print("\n\nGeneral:\n El total de piezas"\
       " fabricadas fue de", cantidad_diaria," con una productividad total "\
-      "de %.0f" % productividad,"piezas.\n\n\nRegresa pronto.")
+      "de %.0f" % productividad,"piezas por hora.\n\n\nRegresa pronto.")
