@@ -36,7 +36,7 @@ Una vez que se haya recopilado esta información se calculará la cantidad prome
     * Calcular productividad del día (float)=cantidad total de piezas elaboradas/horas de trabajo
 
 #### Estado final
-Al final de toda la operación se dará un resumen de los pedidos, mostrando el nombre, las piezas que se fabricaron y el promedio de piezas realizadas por persona. Además se generará un reporte general, en donde se muestre el total de piezas realizadas ese día en la fábrica y mostrará la productividad (considerando 8 horas laborales).. Por último, el sistema mostrará un mensaje diciendo que la operación realizada ha terminado.
+Al final de toda la operación se dará un resumen de los pedidos, mostrando el nombre, las piezas que se fabricaron y el promedio de piezas realizadas por persona. Además se generará un reporte general, en donde se muestre el total de piezas realizadas ese día en la fábrica y mostrará la productividad (considerando 8 horas laborales).Por último, el sistema mostrará un mensaje diciendo que la operación realizada ha terminado.
 - While para mostrar la información de la matriz
 - Tiempo estimado de terminación (float)
 - Cantidad de piezas restantes (int)
