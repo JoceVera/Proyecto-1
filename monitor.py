@@ -196,7 +196,7 @@ def resumen_dia (matriz):
                 if indice == 0:
                     print ( " \n   El pedido",matriz[indice_01][indice],end="")
                 elif indice == 2:
-                    print ("realizó", matriz[indice_01][indice],"piezas",end="")
+                    print (" realizó", matriz[indice_01][indice],"piezas",end="")
                 elif indice == 3:
                     print ("con un rendimiento de %.2f" % matriz[indice_01]\
                            [indice],"piezas por persona.")
