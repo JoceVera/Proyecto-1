@@ -6,7 +6,7 @@ Un problema importante para las empresas antecesoras de la industria textil es l
 
 ### Algoritmo
 #### Función extra
-Se hace uso de la biblioteca "datetime" para importa la función "date" y colocar la fecha del día en el cual se registran los procesos (Fechas con Python, s. f.)
+Se hace uso de la biblioteca "datetime" para importa la función "date" y colocar la fecha del día al momento de dar el resumen final de los procesos (Fechas con Python, s. f.)
 - Fecha = date.today()
 
 #### Estado inicial
