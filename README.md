@@ -6,43 +6,45 @@ Un problema importante para las empresas antecesoras de la industria textil es l
 
 ### Algoritmo
 #### Función extra
-Se hace uso de la biblioteca "datetime" para importa la función "date" y colocar la fecha del día al momento de dar el resumen final de los procesos (Fechas con Python, s. f.)
-- Fecha = date.today()
+Se hace uso de la biblioteca "datetime" para importa la función "date" y colocar la fecha del día en el resumen final de los procesos. La manera de usarlo fue investigada de la página Código Facilito (Fechas con Python, s. f.). 
+-       Fecha = date.today()
 
 #### Estado inicial
 El programa comenzará pidiendo al usuario que ingrese los datos del pedido como lo es el nombre (dato string), la cantidad de piezas por  pedido (dato entero), la cantidad de piezas realizadas (dato entero)  y se pedirá que  seleccione la letra de la sección en donde se está fabricando, respecto a ella se dará la información de la cantidad de personal. 
-- Importar biblioteca datetime
-- Lo que desea hacer (str):  agregar pedido (1), terminar registro (2)
-- La información del pedido: nombre (str), cantidad (int), sección (str), cantidad producida (int) y cantidad de personas (int)
-- Horas laboradas = 8 
-- Lista anidada de almacenamiento
+
+-       Importar biblioteca datetime
+-       Inicio (str):  agregar pedido (1), terminar registro (2)
+-       Información del pedido: nombre (str), cantidad (int), sección (str), cantidad producida (int), cantidad de personas (int)
+-       Horas laboradas = 8 
+-       Lista anidada de almacenamiento
  
 #### Proceso
 Una vez que se haya recopilado esta información se calculará la cantidad promedio de piezas generada por personas y se hará una estimación del tiempo restante para el término del proceso. Mostrando por cada pedido el tiempo de horas estimado en que se completara (haciendo uso de una regla de tres), así como las piezas restantes. Este proceso se realizará las veces necesarias de acuerdo a los pedidos en los que la empresa esté trabajando por día. 
-- While para poder repetir la función por cada pedido ingresado
-- Validar información dentro de los rangos (inició, cantidades y secciones) haciendo uso de ciclos while 
-- Guardar información en variables (nombre-str, cantidades-int)
-- Usar dato str en un while regresando el valor numérico (int) de las personas que laboran 
-- Calcular las predicciones (float/int): 
+-          While inicio por pedido (str)
+-          While para validar información en rangos (inició, cantidades y secciones) 
+-          Guardar información en variables (nombre-str, cantidades-int)
+-          Usar dato str en while para validar sección
+-          Asignar valor numérico (int) de personal por sección 
+-          Calcular las predicciones (float/int): 
 
-    * Promedio (float)=cantidad elaborada/personas que laboraron
+    *          Promedio (float)=cantidad elaborada/personas que laboraron
       
-    * Cantidad faltante (int)=cantidad total - cantidad elaborada
+    *          Cantidad faltante (int)=cantidad total - cantidad elaborada
       
-    * Tiempo restante (float)= cantidad elaborada*horas de trabajo/cantidad 
+    *          Tiempo restante (float)= cantidad elaborada*horas de trabajo/cantidad 
       
-    * Guardar información del pedido y cálculos en la lista anidada (append)
+    *          Guardar información del pedido y cálculos en la lista anidada (append)
       
-    * Calcular productividad del día (float)=cantidad total de piezas elaboradas/horas de trabajo
+    *          Calcular productividad del día (float)=cantidad total de piezas elaboradas/horas de trabajo
 
 #### Estado final
 Al final de toda la operación se dará un resumen de los pedidos, mostrando el nombre, las piezas que se fabricaron y el promedio de piezas realizadas por persona. Además se generará un reporte general, en donde se muestre el total de piezas realizadas ese día en la fábrica y mostrará la productividad (considerando 8 horas laborales).Por último, el sistema mostrará un mensaje diciendo que la operación realizada ha terminado.
-- While para mostrar la información de la matriz
-- Tiempo estimado de terminación (float)
-- Cantidad de piezas restantes (int)
-- Resumen final del pedido (descripción string y listas)
-- Cantidad de piezas de todo el día (int)
-- Mensaje str de salida
+-          While que imprime información de la matriz
+-          Tiempo estimado de terminación (float)
+-          Cantidad de piezas restantes (int)
+-          Resumen final del pedido (str y listas)
+-          Cantidad de piezas de todo el día (int)
+-          Mensaje (str) de salida
 
 ### Fuentes
 
@@ -52,3 +54,5 @@ https://codigofacilito.com/articulos/fechas-python
 Reto Directivos. (2021, 19 abril). Cómo calcular la productividad con ejemplos. El blog de retos para ser directivo | Desafíos de la Gestión Empresarial. Recuperado 29 de septiembre de 2022, de: https://retos-directivos.eae.es/como-calcular-la-productividad-con-ejemplos/
 
 Tecnología para la industria. (2022, 30 junio). 10 maneras en las que el monitoreo en tiempo real de la fabricación mejora la precisión y la calidad.    Recuperado 18 de agosto de 2022, de: https://tecnologiaparalaindustria.com/10-maneras-en-las-que-el-monitoreo-en-tiempo-real-de-la-fabricacion-mejora-la-precision-y-la-calidad/
+
+El formato de pseudocódigo fue basado del trabajo de mi compañera Angélica Ríos Cuentas.
